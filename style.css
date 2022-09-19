@@ -1,66 +1,61 @@
+html,
 body {
-    margin: 0px;
-    font-family: sans-serif;
-}
-
-p {
     margin: 0;
     padding: 0;
-    font-size: 10px;
+    box-sizing: border-box;
 }
 
-.head {
-    width: 600px;
-    margin: auto;
-    text-align: center;
-    margin-top: 20px;
-}
+main {
+    margin: center;
 
-ul {
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-}
-
-li {
-    list-style: none;
 }
 
 .container {
-    max-width: 1080px;
-    margin: auto;
-    /* adicionar media queries, responsividade*/
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: scroll;
 }
 
-.content {
-    display: flex;
-    justify-content: space-around;
+.periodo {
+    display: grid;
+    grid-template-columns: repeat(18, 75px);
+    grid-column-gap: 2px;
+    margin: 2px 0 2px 0;
 }
+
 .element {
-    width: 50px;
-    height: 60px;
     border: solid 1px;
-    /* margin: 0 5px 5px 0px; */
-    padding: 5px;
-    text-align: center;
-    /* border-radius: 2px; */
+    border-radius: 2px;
+    height: 85px;
 }
 
-.element:last-child {
-    margin: 0;
+.span16 {
+    grid-column: span 16;
+}
+
+.span10 {
+    grid-column: span 10;
 }
 
 .atomic-number {
     font-size: 14px;
-    font-weight: 500;
+    margin: 0;
+    padding: 0;
     text-align: left;
 }
 
 .symbol {
+    margin: 0;
+    padding: 0;
     font-size: 20px;
     font-weight: 600;
+    text-align: center;
 }
 
-.grupo-2 {
-    margin-top: 72px;
+.mass-number {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
 }
