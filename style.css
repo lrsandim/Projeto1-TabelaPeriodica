@@ -6,7 +6,7 @@ body {
     font-family: sans-serif;
 
 }
-header, nav, ul, p {
+header, ul, p {
     margin: 0;
     padding: 0;
 }
@@ -19,12 +19,15 @@ h1 {
     text-align: center;
 }
 
-nav {
-    text-align: center;
-    background-color: black;
-    color: rgb(200, 200 , 200);
-    font-family: sans-serif;
-
+footer .class {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    font-size: 16px;
+    width: 1206px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    justify-content: space-evenly;
 }
 
 .class {
@@ -126,6 +129,41 @@ nav {
 }
 
 #alkali-metals {
-    border-color: rgb(210, 105, 30);
-    background-color: rgb(210, 105, 30, 0.1);
+    border-color: rgb(189, 42, 51);
+    background-color: rgb(189, 42, 51, 0.5);
+}
+
+#alkaline-earth-metals {
+    border-color: rgb(214, 170, 38);
+    background-color: rgba(214, 170, 38, 0.5);
+}
+
+#reactive-nonmetal {
+    border-color: rgb(147, 163, 28);
+    background-color: rgb(147, 163, 28, 0.5);
+}
+
+#noble-gas {
+    border-color: rgb(27, 47, 111);
+    background-color: rgba(27, 47, 111, 0.5);
+}
+
+#transition-metal {
+    border-color: rgb(226, 81, 226);
+    background-color: rgb(226, 81, 226, 0.5);
+}
+#post-transition-metals {
+    border-color: rgb(64, 129, 86) ;
+    background-color: rgb(64, 129, 86, 0.5)
+    ;
+}
+
+#semimetal {
+    border-color:rgb(95, 158, 160);
+    background-color: rgb(95, 158, 160, 0.5);
+}
+
+#unknown {
+    border-color: rgb(211, 211, 211);
+    background-color:  rgb(211, 211, 211, 0.5);
 }
