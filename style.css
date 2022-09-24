@@ -19,7 +19,7 @@ h1 {
     text-align: center;
 }
 
-footer .class {
+footer .label {
     display: grid;
     grid-template-columns: repeat(5, 200px);
     font-size: 16px;
@@ -29,14 +29,6 @@ footer .class {
     margin-right: auto;
     margin-top: 30px;
     justify-content: space-evenly;
-}
-
-.class {
-    display: flex;
-    list-style: none;
-    margin: auto;
-    justify-content: space-around;
-    
 }
 
 .group-info {
@@ -55,21 +47,39 @@ footer .class {
     margin-right: auto;
     margin-bottom: 30px;
     justify-content:space-around;
-    background-color:lightgrey;
+    background-color:rgba(211, 211, 211, 0.2);
     border-radius: 5px;
     font-size: 14px;
+}
+
+#period {
+    margin: 22.5px 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: solid 1px rgb(211, 211, 211);
+    border-radius: 50%;
+    background-color:rgba(211, 211, 211, 0.5);
+
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 
 .container {
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 .periodo {
     display: grid;
-    grid-template-columns: repeat(18, 65px);
+    grid-template-columns: repeat(19, 65px);
     grid-column-gap: 2px;
     margin: 2px 0 2px 0;
     justify-content: center;
@@ -78,7 +88,15 @@ footer .class {
 .element {
     border: solid 2px;
     border-radius: 2px;
-    height: 75px;
+    height: 70px;
+}
+
+.span1{
+    grid-column: span 1;
+}
+
+.span4 {
+    grid-column: span 4;
 }
 
 .span16 {
@@ -150,13 +168,12 @@ footer .class {
 }
 
 #transition-metal {
-    border-color: rgb(226, 81, 226);
-    background-color: rgb(226, 81, 226, 0.5);
+    border-color: rgb(245, 134, 105);
+    background-color: rgb(245, 134, 105, 0.5);
 }
 #post-transition-metals {
     border-color: rgb(64, 129, 86) ;
-    background-color: rgb(64, 129, 86, 0.5)
-    ;
+    background-color: rgb(64, 129, 86, 0.5);
 }
 
 #semimetal {
@@ -167,4 +184,85 @@ footer .class {
 #unknown {
     border-color: rgb(211, 211, 211);
     background-color:  rgb(211, 211, 211, 0.5);
+}
+#lanthanide {
+    margin-top: 50px;
+    border-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.5);
+}
+
+#actinide {
+    border-color:rgb(91, 38, 231);
+    background-color: rgba(91, 38, 231, 0.5);
+}
+
+#ma {
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(189, 42, 51);
+    background-color: rgb(189, 42, 51, 0.5);
+    text-align: center;
+}
+#mat {
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(214, 170, 38);
+    background-color: rgba(214, 170, 38, 0.5);
+    text-align: center;
+}
+#mt {
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(245, 134, 105);
+    background-color: rgb(245, 134, 105, 0.5);
+    text-align: center;
+}
+#mpt{
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(64, 129, 86) ;
+    background-color: rgb(64, 129, 86, 0.5);
+    text-align: center;
+}
+#m {
+    border: solid;
+    border-radius: 5px;
+    border-color:rgb(95, 158, 160);
+    background-color: rgb(95, 158, 160, 0.5);
+    text-align: center;
+}
+#l {
+    border: solid;
+    border-radius: 5px;
+    border-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.5);
+    text-align: center;
+}
+#a {
+    border: solid;
+    border-radius: 5px;
+    border-color:rgb(91, 38, 231);
+    background-color: rgba(91, 38, 231, 0.5);
+    text-align: center;
+}
+#nmr {
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(147, 163, 28);
+    background-color: rgb(147, 163, 28, 0.5);
+    text-align: center;
+}
+#gn {
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(27, 47, 111);
+    background-color: rgba(27, 47, 111, 0.5);
+    text-align: center;
+}
+#d {
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(211, 211, 211);
+    background-color:  rgb(211, 211, 211, 0.5);
+    text-align: center;
 }
