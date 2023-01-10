@@ -8,6 +8,6 @@ Para elaboração do projeto utilizou-se HTML5 e CSS3.
 
 # Visualização do projeto
 
-Você pode consultar este projeto acessando o link: https://lrsandim.github.io/Projeto1-TabelaPeriodica/
+Você pode consultar este projeto acessando o link: https://lrsandim.github.io/TabelaPeriodica/
 
 
